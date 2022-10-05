@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+footer {
+  text-align: center;
+}
+  
+h1 {
+    text-align: center;
+}
+  
+h2 {
+  color: midnightblue;
+  text-align: center;
+}
+  
+h3 {
+  color: blue;
+  text-align: center;
+}
+  
+table {
+  border: 2px solid darkblue;
+  width: 650px;
+  margin: 0 auto;
+}
+  
+thead {
+  background-color: skyblue;
+}
+  
+td {
+  border-top: 1px solid midnightblue;
+}
+
+p {
+  text-align: center;
+}
+
+ol {
+  display: table;
+  margin: 0 auto;
+}
+  
+.code {
+  font-family: monospace;
+  background-color: antiquewhite;
+}
+
+p#id {
+  font-size: 15px;
+  color: lightgray;
+}
+
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: skyblue;
+}
+
+/* selected link */
+a:active {
+  color: skyblue;
+}
