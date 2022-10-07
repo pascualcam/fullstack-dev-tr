@@ -1,0 +1,62 @@
+/* General style sheet */
+body {
+    /* height: 95vh; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 10%;
+}
+
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+/* General color container */
+.color-container {
+  width: 18%;
+  display: inline-block;
+  text-align: center;
+}
+
+/* General color panel */
+.color-panel div {
+    width: 20%;
+    margin: 20px auto;
+    min-height: 100px;
+  }
+
+/* General Name */
+.color-name {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+/* General Code */
+.color-code {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Individual color */
+.cgblue {
+    color: white;
+    background-color: #247ba0;
+}
+.crayola {
+    color: black;
+    background-color: #91e5f6;
+}
+.saffron {
+    color: black;
+    background-color: #f39237;
+}
+.latte {
+    color: black;
+    background-color: #f7f3e3;
+}
+.kobe {
+    color: white;
+    background-color: #942911;
+}
