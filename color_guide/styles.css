@@ -1,3 +1,9 @@
+/* Font */
+@font-face {
+    font-family: 'Roboto';
+    src: url();
+}
+
 /* General style sheet */
 body {
     /* height: 95vh; */
@@ -59,4 +65,24 @@ body {
 .kobe {
     color: white;
     background-color: #942911;
+}
+
+.font-panel {
+
+}
+
+.font-label {
+
+}
+
+.roboto {
+    font-family: ;
+}
+
+.montserrat {
+    font-family: ;
+}
+
+.oswald {
+    font-family: ;
 }
