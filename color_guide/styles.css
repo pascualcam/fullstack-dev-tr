@@ -1,15 +1,18 @@
-/* Font */
-@font-face {
-    font-family: 'Roboto';
-    src: url();
-}
-
 /* General style sheet */
 body {
     /* height: 95vh; */
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family: 'Nunito Sans', sans-serif; */
     font-family: 'Nunito Sans', sans-serif;
-    margin: 0 10%;
+    margin: 0 20%; 
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .container {
@@ -18,71 +21,116 @@ body {
     margin: 10px auto;
   }
 
-/* General color container */
+/* color container */
 .color-container {
   width: 18%;
   display: inline-block;
   text-align: center;
 }
 
-/* General color panel */
+/* Color panel */
 .color-panel div {
     width: 20%;
     margin: 20px auto;
-    min-height: 100px;
+    min-height: 50px;
   }
 
-/* General Name */
+/* Color Name */
 .color-name {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 800;
     text-align: center;
 }
-/* General Code */
+ 
+/* Color HEX Code */
 .color-code {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     text-align: center;
 }
 
-/* Individual color */
+/* Colors */
 .cgblue {
     color: white;
     background-color: #247ba0;
 }
+
 .crayola {
     color: black;
     background-color: #91e5f6;
 }
+
 .saffron {
     color: black;
     background-color: #f39237;
 }
+
 .latte {
     color: black;
     background-color: #f7f3e3;
 }
+
 .kobe {
     color: white;
     background-color: #942911;
 }
 
-.font-panel {
+/* Font Panel */
 
+.font-panel {
+    width: 30%;
+    display: inline-block;
 }
 
 .font-label {
-
+    text-decoration: underline;
+    font-size: 16px;
 }
 
-.roboto {
-    font-family: ;
+.sourcecode {
+    font-family: 'Source Code Pro';
 }
 
-.montserrat {
-    font-family: ;
+.nunito-sans {
+    font-family: 'Nunito Sans';
 }
 
-.oswald {
-    font-family: ;
+.poppins {
+    font-family: 'Poppins';
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Text Styles */
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Footer */
+.footer-container {
+    display: inline-block;
 }

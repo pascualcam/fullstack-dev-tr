@@ -1,0 +1,49 @@
+body {
+    background-color: #EDE8E2;
+}
+h1 {
+    color: #4B296B;
+}
+
+h2 {
+    color: #4B296B;
+}
+h3 {
+    color: #4B296B;
+}
+
+h4 {
+    color: #9B7EDE;
+}
+
+h5 {
+    color: #9B7EDE;
+}
+
+h6 {
+    color: #9B7EDE;
+}
+
+p {
+    color: black;
+}
+
+.color-panel {
+    background-color: lightgray;
+}
+.color1 {
+    background-color: #EDE8E2;
+    color: black;
+}
+.color2 {
+    background-color: #C0C0F2;
+    color: white;
+}
+.color3 {
+    background-color: #838BC2;
+    color: white;
+}
+.color4 {
+    background-color: #695E93;
+    color: white;
+}
