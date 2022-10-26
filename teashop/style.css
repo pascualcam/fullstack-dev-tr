@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 3px;
+    padding: 0;
+    opacity: 0.95;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.logo {
+    display: inline-block;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: underline;
+    color: seashell;
+}
+
+.nav-item:hover {
+    background-color: seashell;
+}
+
+.nav-item:hover a {
+    color: black;
+    background-color: seashell;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 175px;
+    vertical-align: middle;
+}
+
+div.mission {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.mission-sub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 1300px;
+}
+.mission-text {
+    padding: 10px;
+    color: seashell;
+}
+
+
+div.tea {
+    padding: 30px 0px;
+    background-color: black;
+    color: seashell;
+    justify-content: center;
+    text-align: center;
+}
+
+div.tea-sub {
+    display: inline-flex;
+}
